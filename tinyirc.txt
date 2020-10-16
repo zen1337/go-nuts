@@ -1,0 +1,366 @@
+    1  man
+    2  man -k nc
+    3  man -k net
+    4  man -k wireshark
+    5  pacman
+    6  apt-get
+    7  apt-cache search wireshark
+    8  apt-get wireshark install
+    9  apt-get install wireshark
+   10  man apt
+   11  man -k apt
+   12  man apt-cache
+   13  apt-cache install wireshark
+   14  apt-cache add wireshark
+   15  apt-cache search wireshark
+   16  apt-get install wireshark
+   17  suro apt-get install wireshark
+   18  sudo apt-get install wireshark
+   19  ifconfig
+   20  sudo apt install net-tools
+   21  ifconfig
+   22  ping 8.8.8.8
+   23  sslscan
+   24  apt-cache search sslscan
+   25  man -k ssl
+   26  python3
+   27  python3.6
+   28  apt-cache search python
+   29  pip3
+   30  sudo apt install python3-pip
+   31  cd ..
+   32  cd Downloads/
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd /usr
+   37  ls
+   38  cd local/
+   39  ls
+   40  cd..
+   41  cd ..
+   42  lc
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd root/
+   49  ls
+   50  sudo cd root/Downloads
+   51  ls
+   52  cd home/
+   53  ls
+   54  cd n3
+   55  ls
+   56  cd /etc/profile.d/
+   57  ls
+   58  cd ..
+   59  ls
+   60  cd profile
+   61  ls -la
+   62  ls
+   63  ls pro
+   64  ls p
+   65  cd profile
+   66  cat profile
+   67  ld
+   68  ls
+   69  cat profile.d/
+   70  cd profile.d/
+   71  ls
+   72  vi apps-bin-path.sh 
+   73  ls
+   74  man env
+   75  cd ..
+   76  cd environment.d/
+   77  ls
+   78  cd ..
+   79  vi environment
+   80  cat environment
+   81  sudo vi environment
+   82  cat environment
+   83  go version
+   84  reboot
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd Downloads/
+   89  ls
+   90  tar -C /usr/local -xzf go1.15.2.linux-amd64.tar.gz 
+   91  sudo tar -C /usr/local -xzf go1.15.2.linux-amd64.tar.gz 
+   92  sudo export PATH=$PATH:/usr/local/go/bin
+   93  go version
+   94  env
+   95  env -d
+   96  env -v
+   97  go
+   98  go version
+   99  cd
+  100  ls
+  101  pwd
+  102  mkdir GOCODE
+  103  cd GOCODE/
+  104  ls
+  105  pwd
+  106  mkdir greetings
+  107  cd greetings/
+  108  go mod init n3.com/greetings
+  109  vi greetings.go
+  110  ls
+  111  cd ..
+  112  mkdir hello
+  113  cd hello/
+  114  ls
+  115  vi hello.go
+  116  go mod init hello
+  117  ls
+  118  vi go.mod
+  119  go mod init hello
+  120  rm go.mod 
+  121  go mod init hello
+  122  vi go.mod 
+  123  ls
+  124  vi go.mod 
+  125  rm go.mod 
+  126  vi go.mod 
+  127  ls
+  128  go mod init hello
+  129  ls
+  130  vi go.mod
+  131  go build
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd greetings/
+  136  ls
+  137  vi greetings.go 
+  138  cd ..
+  139  cd hello/
+  140  ls
+  141  go build
+  142  ls
+  143  cat go.mod 
+  144  ./hello 
+  145  atom
+  146  sudo snap install atom
+  147  sudo snap install atom --classic
+  148  atom
+  149  ls
+  150  go build
+  151  ls
+  152  ./hello 
+  153  ls
+  154  vi go.mod 
+  155  ./hello 
+  156  cd ..
+  157  ls
+  158  ld
+  159  ls
+  160  cd error/
+  161  ls
+  162  go mod init error
+  163  ls
+  164  cat error.go 
+  165  cat go.mod 
+  166  cd ..
+  167  ls
+  168  cd hello/
+  169  ls
+  170  go build hello
+  171  cp go.mod go.mod_bck
+  172  rm go.mod
+  173  go mod init hello
+  174  vi go.mod
+  175  rm go.mod
+  176  vi go.mod_bck 
+  177  rm go.mod_bck go.mod
+  178  cp go.mod_bck go.mod
+  179  ls
+  180  go mod init hello
+  181  build hello
+  182  go mod build hello
+  183  go build hello
+  184  ./hello 
+  185  go build hello
+  186  ./hello 
+  187  go build hello
+  188  ./hello 
+  189  cat hello
+  190  ls
+  191  cp hello hello_bck
+  192  rm hello
+  193  go build hello
+  194  ls
+  195  go build hello
+  196  ls
+  197  go build hello
+  198  go run hello.go
+  199  go build hello
+  200  ls
+  201  ./hello
+  202  ./hello_bck 
+  203  go run hello.go 
+  204  go build hello_ermods
+  205  ls
+  206  ./hello
+  207  cp hello hello_eronly
+  208  rm hello
+  209  go build hello
+  210  ./hello
+  211  ls
+  212  go run hello.go 
+  213  atom
+  214  ls
+  215  cd ..
+  216  ls
+  217  cd GOCODE/
+  218  ls
+  219  cd hello/
+  220  ls
+  221  go run hello.go 
+  222  cd hello/
+  223  go run hello.go 
+  224  cd ..
+  225  ls
+  226  go get github.com/netflix/rend
+  227  git
+  228  sudo apt install git
+  229  go get github.com/netflix/rend
+  230  ls
+  231  go get github.com/netflix/rend
+  232  sudo go get github.com/netflix/rend
+  233  go get github.com/netflix/rend
+  234  git get github.com/netflix/rend
+  235  git
+  236  git clone github.com/netflix/rend
+  237  git clone https://github.com/netflix/rend
+  238  ls
+  239  cd rend/
+  240  ls
+  241  cd server/
+  242  ls
+  243  vi default.go 
+  244  cd ..
+  245  ls
+  246  cd protocol/
+  247  ls
+  248  cd binprot/
+  249  ls
+  250  vi commands.go 
+  251  ls
+  252  cd ..
+  253  ls
+  254  cd ..
+  255  ls
+  256  vi memproxy.go 
+  257  ls
+  258  cd ..
+  259  ls
+  260  cd hello/
+  261  ls
+  262  history | grep mod
+  263  go mod init hello
+  264  cp go.mod go.mod_bck2
+  265  rm go.mod
+  266  go mod init hello
+  267  rm go.mod
+  268  go mod init hello
+  269  ls
+  270  cat go.mod
+  271  cp hello hello_bck2
+  272  rm hello
+  273  rm go.mod
+  274  cp hello_bck go.mod
+  275  go mod build hello
+  276  go build hello
+  277  cd ..
+  278  ls
+  279  cd vdecode/
+  280  ls
+  281  go mod init vdecode
+  282  ls
+  283  go run vdecode.go 
+  284  [A
+  285  go run vdecode.go 
+  286  xclip
+  287  sudo apt install xclip
+  288  sudo apt install xsel
+  289  ls
+  290  go run vdecode.go 
+  291  ls
+  292  cd GOCODE/
+  293  ls
+  294  cd hello/
+  295  ls
+  296  vi go.mod
+  297  rm go.mod
+  298  ls
+  299  go init mod hello.go 
+  300  go mod init hello.go 
+  301  ls
+  302  vi go.mod
+  303  atmo
+  304  atom
+  305  cd ..
+  306  ls
+  307  cd GOCODE/
+  308  ls
+  309  cd hello/
+  310  ls
+  311  go run hello.go 
+  312  ls
+  313  cd
+  314  ls
+  315  cd GOCODE/
+  316  ls
+  317  mkdir test
+  318  cd test/
+  319  ls
+  320  env
+  321  vi test.go
+  322  go
+  323  cd ..
+  324  goi
+  325  cd .
+  326  ls
+  327  cd  n3
+  328  man -k go
+  329  go
+  330  ls
+  331  atom
+  332  ls
+  333  cd GOCODE/
+  334  ls
+  335  cd test/
+  336  ls
+  337  go mod init test.go 
+  338  ls
+  339  go run test.go 
+  340  atom
+  341  env
+  342  go version
+  343  ls
+  344  cd ..
+  345  ls
+  346  cd GOCODE/
+  347  ls
+  348  cd vdecode/
+  349  ls
+  350  cat go.mod 
+  351  go run vdecode.go 
+  352  man -k irc
+  353  apt-cache search irc
+  354  anope
+  355  sudo apt install anope
+  356  apt-cache search irc
+  357  tinyirc
+  358  sudo apt install tinyirc
+  359  tinyirc
+  360  tinyirc n3gobad chat.freenode.net 6697
+  361  tinyirc n3gobad chat.freenode.net 6667
+  362  tinyirc n3g0bad chat.freenode.net 6667
+  363  history
+  364  cd ..
+  365  history > tinyirc.txt
+/msg NickServ IDENTIFY n3g0bad 34373437a, #go-nuts
