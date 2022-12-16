@@ -363,4 +363,4 @@
   363  history
   364  cd ..
   365  history > tinyirc.txt
-/msg NickServ IDENTIFY n3g0bad 34373437a, #go-nuts
+/msg NickServ IDENTIFY n3g0bad 343, #go-nuts
